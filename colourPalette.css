@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Liter", serif;
+    letter-spacing: 0.1px;
+    background-color: #F5F7FA;
+}
+
+.parent-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    padding: 0.5rem 2.5rem;
+}
+
+.header-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    width: fit-content;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.title h4 {
+    color: #2C3E50;
+    font-size: 1.2rem;
+    font-weight: 35px;
+}
+
+.description{
+    width: fit-content;
+    height: auto;
+}
+
+.description h1{
+    color: #2C3E50;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.buttons-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.generate-button-container, .reset-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+button{
+    padding: .5rem .7rem;
+    font-size: .9rem;
+    font-weight: 550;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.generate-button{
+    background-color: #2B465D;
+    color: #F9F9F9;
+}
+
+.reset_button {
+    background-color: #2B465D;
+    color: #F9F9F9;
+}
+
+.statement {
+    width: fit-content;
+    height: auto;
+    margin-top: .5rem;
+}
+
+.statement p{
+    font-size: 1.1rem;
+    font-weight: 10rem;
+    color: #2C3E50;
+}
+
+.colours {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.colour-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    row-gap: 1rem;
+    padding: 1.5rem;
+    border-radius: .7rem;
+}
+
+.first-colour-box{
+    background-color: #FAF3F0;  
+}
+
+.second-colour-box {
+    background-color: #F2E3DD;    
+}
+
+.third-colour-box{
+    background-color: #E3D1C8;    
+}
+
+.fourth-colour-box{
+    background-color: #CDB9AE;    
+}
+
+.hex-code, .colour-name{
+    width: fit-content;
+    height: auto;
+    padding: .25rem;
+    background-color: #BFA69E;
+    border-radius: .5rem;
+    position: relative;
+    /* border: 1px solid #A89182; */
+}
+
+.hex-code h5{
+    background-color: #BFA69E;
+    font-size: .75rem;
+    color: #333333;
+}
+
+
