@@ -226,6 +226,7 @@ fa-arrow-right{
     justify-content: end;
     column-gap: 1.5rem;
     padding: 1rem .25rem 0 .25rem;
+    margin-bottom: 1rem;
 }
 
 .contact-me{
