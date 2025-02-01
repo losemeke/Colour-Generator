@@ -67,7 +67,7 @@
 
 button{
     padding: .5rem .7rem;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 550;
     border-radius: .5rem;
     outline: none;
@@ -92,8 +92,7 @@ button{
 }
 
 .statement p{
-    font-size: 1.1rem;
-    font-weight: 10rem;
+    font-size: 1.2rem;
     color: #5E2CA5;
 }
 
