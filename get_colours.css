@@ -37,8 +37,8 @@
 
 .title h4 {
     color: #5E2CA5;
-    font-size: 1.2rem;
-    font-weight: 35px;
+    font-size: 1.5rem;
+    font-weight: 1rem;
 }
 
 .description{
@@ -138,12 +138,11 @@ button{
     background-color: #9B6ACD;
     border-radius: .5rem;
     position: relative;
-    /* border: 1px solid #A89182; */
 }
 
 .hex-code h5{
     background-color: #9B6ACD;
-    font-size: .75rem;
+    font-size: 1rem;
     color: #3B235A;
 }
 
