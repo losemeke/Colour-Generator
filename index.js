@@ -130,7 +130,7 @@ document.addEventListener('keydown', (event) => {
 
 // Reset Button
 resetButton.addEventListener(`click`, ()=>{    
-    let defaultColours = [`#FAF3F0`, `#F2E3DD`, `#E3D1C8`, `#CDB9AE`]
+    let defaultColours = [`#F0D9FF`, `#D6A3FB`, `#B07AE6`, `#7D42C8`]
     let colouredBoxes = document.querySelectorAll(`.colour-box`)
     let hexCodes = document.querySelectorAll(".hex-code h5");
     let labelledBoxes = document.querySelectorAll(`.hex-code`)
@@ -138,21 +138,21 @@ resetButton.addEventListener(`click`, ()=>{
     colouredBoxes.forEach((box,index)=>{
         box.style.backgroundColor = defaultColours[index]
         hexCodes[index].textContent = defaultColours[index]
-        hexCodes[index].style.color = `#333333`
-        hexCodes[index].style.backgroundColor = `#BFA69E`
-        labelledBoxes[index].style.backgroundColor = `#BFA69E`
-        labelledBoxes[index].style.borderColor = `#A89182`
+        hexCodes[index].style.color = `#3B235A`
+        hexCodes[index].style.backgroundColor = `#9B6ACD`
+        labelledBoxes[index].style.backgroundColor = `#9B6ACD`
+        labelledBoxes[index].style.borderColor = `#8458B3`
     })
 
     // change the colour when clicked
-    resetButton.style.backgroundColor = `#1E2A38`; 
+    resetButton.style.backgroundColor = `#4B1E79`; 
     resetButton.style.color = `#f9f9f9`; 
 })
 
 // Hover Effect
 function addHoverEffect(button) {
     button.addEventListener(`mouseover`, () => {
-        button.style.backgroundColor = `black`;
+        button.style.backgroundColor = `#5E2CA5`;
         button.style.color = `#f9f9f9`;;
         button.style.transform = `scale(1.05)`; // slightly increases size
     });
@@ -168,6 +168,6 @@ addHoverEffect(resetButton);
 
 // change button colours when clicked
 generateButton.addEventListener('click', ()=>{
-    generateButton.style.backgroundColor = `#1E2A38`; 
+    generateButton.style.backgroundColor = `#4B1E79`; 
     generateButton.style.color = `#f9f9f9`; 
 });

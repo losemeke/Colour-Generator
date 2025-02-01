@@ -36,7 +36,7 @@
 }
 
 .title h4 {
-    color: #2C3E50;
+    color: #5E2CA5;
     font-size: 1.2rem;
     font-weight: 35px;
 }
@@ -47,7 +47,7 @@
 }
 
 .description h1{
-    color: #2C3E50;
+    color: #5E2CA5;
     font-size: 2.1rem;
     margin-bottom: 1rem;
 }
@@ -76,12 +76,12 @@ button{
 }
 
 .generate-button{
-    background-color: #2B465D;
+    background-color: #6A0DAD;
     color: #F9F9F9;
 }
 
 .reset_button {
-    background-color: #2B465D;
+    background-color: #6A0DAD;
     color: #F9F9F9;
 }
 
@@ -94,7 +94,7 @@ button{
 .statement p{
     font-size: 1.1rem;
     font-weight: 10rem;
-    color: #2C3E50;
+    color: #5E2CA5;
 }
 
 .colours {
@@ -116,35 +116,35 @@ button{
 }
 
 .first-colour-box{
-    background-color: #FAF3F0;  
+    background-color: #F0D9FF;  
 }
 
 .second-colour-box {
-    background-color: #F2E3DD;    
+    background-color: #D6A3FB;    
 }
 
 .third-colour-box{
-    background-color: #E3D1C8;    
+    background-color: #B07AE6;    
 }
 
 .fourth-colour-box{
-    background-color: #CDB9AE;    
+    background-color: #7D42C8;    
 }
 
 .hex-code, .colour-name{
     width: fit-content;
     height: auto;
     padding: .25rem;
-    background-color: #BFA69E;
+    background-color: #9B6ACD;
     border-radius: .5rem;
     position: relative;
     /* border: 1px solid #A89182; */
 }
 
 .hex-code h5{
-    background-color: #BFA69E;
+    background-color: #9B6ACD;
     font-size: .75rem;
-    color: #333333;
+    color: #3B235A;
 }
 
 
