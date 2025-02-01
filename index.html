@@ -9,18 +9,34 @@
 </head>
 <body>
     <div class="parent">
-        <div class="side-bar">
+        <div class="sidebar">
             <div class="side-links">
-                <ul>
-                    <li> <a href="https://www.linkedin.com/in/laeticia-osemeke/" target="#"> About </a> </li>
-                    <li> <a href="https://elementor.com/blog/color-theory-web-design/?utm_source=chatgpt.com" target="#"> Colour Theory </a> </li>
-                    <li> <a href="https://www.newtarget.com/web-insights-blog/color-psychology-in-website-design/?utm_source=chatgpt.com" target="#"> Guide </a> </li>
-                    <li> <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="#"> Contact </a> </li>
+                <ul>                    
+                    <li> 
+                        <div class="side-anchor">
+                            <a href="https://www.linkedin.com/in/laeticia-osemeke/" target="#"> About </a>
+                        </div> 
+                    </li>
+                    <li> 
+                        <div class="side-anchor">
+                            <a href="https://elementor.com/blog/color-theory-web-design/?utm_source=chatgpt.com" target="#"> Colour Theory </a>
+                        </div>
+                    </li>
+                    <li>  
+                        <div class="side-anchor">
+                            <a href="https://www.newtarget.com/web-insights-blog/color-psychology-in-website-design/?utm_source=chatgpt.com" target="#"> Guide </a>
+                        </div>
+                    </li>
+                    <li>  
+                        <div class="side-anchor">
+                            <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="#"> Contact </a>
+                        </div>
+                    </li>
                 </ul>
             </div>
             
             <div class="account-container">
-                <button class="signup"> Sign up</button>
+                <button class="sidebar-signup"> Sign up </button>
             </div>
         </div>
 
@@ -28,7 +44,7 @@
             <div class="top">
                 <div class="top-left">
                     <div class="menu-container">
-                        <button class="menu-button"> <i class="fa-solid fa-bars fa-xl"></i> </button>
+                        <button class="menu-button" onclick="toggleSidebar()"> <i class="fa-solid fa-bars fa-xl"></i> </button>
                     </div>
         
                     <div class="sitename-container">
@@ -82,7 +98,25 @@
                 </div>
         
                 <div class="picture">
+                    <div class="smallscreenheading">
+                        <h1> The Best Colour Generator for Designers and Developers </h1>
+                    </div>
+
                     <img src="./ASSETS/Images/colorful swatches fan-like manner.webp" alt="">
+
+                    <div class="smallscreenbody">
+                        <p> Hi there. I'm Lettie and I am so happy that you're on my first ever website! I hope you enjoy using it as much as I did creating it. Click the button to get started </p>
+                    </div>
+
+                    <div class="smallscreen-start-button-container">
+                        <a href="./get_colours.html" target="#">
+                            <button class="get-colours" id="get-colours"> 
+                                <div class="button-content">
+                                    <p> Get colours </p>
+                                </div>                        
+                            </button>
+                        </a>                    
+                    </div>
                 </div>
             </div>    
             

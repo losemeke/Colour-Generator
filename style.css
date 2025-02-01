@@ -18,7 +18,7 @@
     padding: 0.5rem 1.5rem;
 }
 
-.side-bar{
+.sidebar{
     display: none;
 }
 
@@ -41,7 +41,6 @@
     justify-content: space-between;
     align-items: center;
     column-gap: .7rem;
-
 }
 
 .top-left {
@@ -56,16 +55,6 @@
 
 .menu-container{
     display: none;
-}
-
-.menu-container{
-    width: fit-content;
-    height: auto;
-}
-
-.menu-container button{
-    border: none;
-    outline: none;
 }
 
 .sitename-container{
@@ -113,6 +102,7 @@
     color: #5E2CA5;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .signin, .signup{
@@ -209,10 +199,22 @@ fa-arrow-right{
     height: auto;
 }
 
+.smallscreenheading{
+    display: none;
+}
+
 .picture img{
     width: 700px;
     height: 450px;
     border-radius: .5rem;
+}
+
+.smallscreenbody{
+    display: none;
+}
+
+.smallscreen-start-button-container{
+    display: none;
 }
 
 .footer{
@@ -224,7 +226,6 @@ fa-arrow-right{
     justify-content: end;
     column-gap: 1.5rem;
     padding: 1rem .25rem 0 .25rem;
-    /* border-top: 1px solid black; */
 }
 
 .contact-me{
@@ -253,4 +254,180 @@ fa-arrow-right{
 
 .CI a{
     color: #5E2CA5;
+}
+
+@media screen and (max-width: 480px){
+    .parent{
+        padding: 0.5rem .5rem;
+    }
+
+    .sidebar{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        row-gap: 1rem;
+        padding: 1rem;
+        margin-top: 3rem;
+        position: fixed;
+        left: -50%;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .sidebar.active {
+        left: 0; /* When toggled: Sidebar appears */
+    }
+
+    .side-links{
+        width: 100%;
+        height: auto;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .side-anchor{
+        width: fit-content;
+        margin-bottom: 1rem;
+    }
+
+    .side-anchor a{
+        text-decoration: none;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .account-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .sidebar-signup{
+        background-color: #6A0DAD;
+        padding: .5rem .7rem;
+        font-size: .9rem;
+        font-weight: 550;
+        border-radius: .5rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: #F9F9F9;
+    }
+
+    .signin button{
+        border: 1.8px solid #5E2CA5;
+        cursor: pointer;
+    }
+
+    .main-content{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .top-left{
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    .menu-container{
+        width: fit-content;
+        height: auto;
+        display: flex;
+    }
+
+    .menu-container button{
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: #6A0DAD;
+        padding: .5rem;
+    }
+
+    .top-links{
+        display: none;
+    }
+
+    .signup{
+        display: none;
+    }
+
+    .texts{
+        display: none;
+    }
+
+    .picture{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .smallscreenheading{
+        display: flex;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .picture img{
+        width: 400px;
+        height: 250px;
+        border-radius: .5rem;
+        margin-top: 1rem;        
+    }
+
+    .smallscreenbody{
+        display: flex;
+    }
+
+    .smallscreen-start-button-container{
+        display: flex;
+    }
+
+    .footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .parent{
+        padding: 1.5rem;
+    }
+
+    .sitename-container {
+        column-gap: 2rem;
+    }
+    
+    .texts{
+        display: none;
+    }
+
+    .picture{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .smallscreenheading{
+        display: flex;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .smallscreenbody{
+        width: 95%;
+        display: flex;
+    }
+
+    .smallscreen-start-button-container{
+        display: flex;
+    }
+
 }

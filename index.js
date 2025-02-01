@@ -171,3 +171,8 @@ generateButton.addEventListener('click', ()=>{
     generateButton.style.backgroundColor = `#4B1E79`; 
     generateButton.style.color = `#f9f9f9`; 
 });
+
+function toggleSidebar() {
+    let sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('active');
+}
