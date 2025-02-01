@@ -402,7 +402,6 @@ fa-arrow-right{
     }
 
     .top{
-        position: fixed;
         top: 0;
         padding: 1rem 0 .5rem 0;
     }
