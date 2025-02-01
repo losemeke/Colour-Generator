@@ -11,7 +11,7 @@
 
 .parent{
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -229,7 +229,7 @@ fa-arrow-right{
     column-gap: 1.5rem;
     padding: 1rem .25rem 0 .25rem;
     position: absolute;
-    top: 800px;
+    bottom: 0;
     right: 0;
 }
 
