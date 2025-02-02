@@ -146,7 +146,7 @@ button{
     color: #3B235A;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     .parent-container{
         padding: 0.5rem 1rem;
     }
