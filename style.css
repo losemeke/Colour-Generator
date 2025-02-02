@@ -332,7 +332,7 @@ fa-arrow-right{
     }
 
     .picture img{
-        width: 550px;
+        width: 600px;
         height: 400px;
     }
 
@@ -494,21 +494,30 @@ fa-arrow-right{
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .picture img{
-        width: 250px;
-        height: 150px;
+        width: 550px;
+        height: 450px;
         border-radius: .5rem;
-    }  
+        margin-top: 1rem;        
+    }
 }
 
-/* @media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
     .picture img{
         width: 400px;
         height: 250px;
         border-radius: .5rem;
     }  
-} */
+}
+
+@media screen and (max-width: 300px) {
+    .picture img{
+        width: 250px;
+        height: 250px;
+        border-radius: .5rem;
+    }  
+}
 
 
 
