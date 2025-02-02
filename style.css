@@ -496,8 +496,8 @@ fa-arrow-right{
 
 @media screen and (max-width: 768px) {
     .picture img{
-        width: 550px;
-        height: 450px;
+        width: 500px;
+        height: 300px;
         border-radius: .5rem;
         margin-top: 1rem;        
     }
@@ -506,7 +506,7 @@ fa-arrow-right{
 @media screen and (max-width: 500px) {
     .picture img{
         width: 400px;
-        height: 250px;
+        height: 200px;
         border-radius: .5rem;
     }  
 }
