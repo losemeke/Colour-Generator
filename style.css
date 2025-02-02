@@ -7,7 +7,6 @@
     font-family: "Liter", serif;
     letter-spacing: 0.1px;
     background-color: #F5F7FA;
-    overflow: hidden;
 }
 
 .parent{
@@ -25,7 +24,7 @@
 
 .main-content{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,7 +225,6 @@ fa-arrow-right{
     align-items: center;
     justify-content: end;
     column-gap: 1.5rem;
-    margin-top: auto;
     padding-bottom: 2rem;
 }
 
