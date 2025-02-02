@@ -373,7 +373,7 @@ fa-arrow-right{
     .smallscreenheading{
         display: flex;
         text-align: center;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .picture img{
@@ -394,6 +394,14 @@ fa-arrow-right{
     .footer{
         display: none;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .picture img{
+        width: 250px;
+        height: 400px;
+        border-radius: .5rem;
+    }  
 }
 
 @media screen and (max-width: 1050px) {
