@@ -226,9 +226,6 @@ fa-arrow-right{
     justify-content: end;
     column-gap: 1.5rem;
     padding: 1rem .25rem 0 .25rem;
-    /* position: absolute;
-    bottom: 20px;
-    right: 0; */
 }
 
 .contact-me{
@@ -399,7 +396,7 @@ fa-arrow-right{
 
 @media screen and (max-width: 500px) {
     .picture img{
-        width: 100px;
+        width: 75px;
         height: 400px;
         border-radius: .5rem;
     }  
@@ -407,7 +404,7 @@ fa-arrow-right{
 
 @media screen and (max-width: 300px) {
     .picture img{
-        width: 100px;
+        width: 50px;
         height: 400px;
         border-radius: .5rem;
     }  
@@ -460,9 +457,9 @@ fa-arrow-right{
         display: flex;
     }
 
-    /* .footer{
-        padding-bottom: 2rem;
-    } */
+    .footer{
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -473,7 +470,7 @@ fa-arrow-right{
     }  
 
     .footer{
-        padding-bottom: -1rem;
+        padding-bottom: 0rem;
     }
 }
 
@@ -485,7 +482,7 @@ fa-arrow-right{
     }  
 
     .footer{
-        padding-bottom: -1rem;
+        padding-bottom: 0rem;
     }
 }
 
@@ -497,7 +494,7 @@ fa-arrow-right{
     }  
 
     .footer{
-        padding-bottom: -1rem;
+        padding-bottom: 0;
     }
 }
 
@@ -509,7 +506,7 @@ fa-arrow-right{
     }  
 
     .footer{
-        padding-bottom: -1rem;
+        padding-bottom: 0rem;
     }
 }
 
