@@ -37,7 +37,12 @@
 }
 
 .title h4 {
-    color: #5E2CA5;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background: linear-gradient(45deg, #FF6B6B, #B5179E, #3A0CA3,  #FF4D6D, #9370DB, #6A0DAD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
     font-size: 1.5rem;
     font-weight: 1rem;
 }
