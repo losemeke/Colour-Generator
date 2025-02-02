@@ -128,7 +128,7 @@
     justify-content: center;
     align-items: center;
     column-gap: .75rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
 }
 
 .texts{
@@ -227,9 +227,9 @@ fa-arrow-right{
     justify-content: end;
     column-gap: 1.5rem;
     padding: 1rem .25rem 0 .25rem;
-    position: absolute;
+    /* position: absolute;
     bottom: 20px;
-    right: 0;
+    right: 0; */
 }
 
 .contact-me{
@@ -429,7 +429,7 @@ fa-arrow-right{
     .smallscreenheading{
         display: flex;
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 2.5rem;
     }
 
     .smallscreenbody{
