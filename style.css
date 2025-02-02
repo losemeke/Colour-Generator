@@ -505,7 +505,7 @@ fa-arrow-right{
 
 @media screen and (max-width: 600px) {
     .picture img{
-        width: 420px;
+        width: 400px;
         height: 290px;
         border-radius: .5rem;
         margin-top: 1rem;        
