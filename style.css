@@ -260,7 +260,7 @@ fa-arrow-right{
     color: #5E2CA5;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     .parent{
         padding: 0.5rem .5rem;
     }
