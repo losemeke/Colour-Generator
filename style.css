@@ -473,8 +473,8 @@ fa-arrow-right{
     }
 
     .picture img{
-        width: 400px;
-        height: 250px;
+        width: 600px;
+        height: 350px;
         border-radius: .5rem;
         margin-top: 1rem;        
     }
@@ -494,17 +494,17 @@ fa-arrow-right{
     }
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     .picture img{
         width: 300px;
         height: 250px;
         border-radius: .5rem;
     }  
-}
+} */
 
 @media screen and (max-width: 300px) {
     .picture img{
-        width: 250px;
+        width: 400px;
         height: 250px;
         border-radius: .5rem;
     }  
