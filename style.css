@@ -92,6 +92,13 @@
     font-size: 1.1rem;
     font-weight: 2.5rem;
     color: #5E2CA5;
+    padding: .25rem .5rem;
+    border-radius: .3rem;
+}
+
+.top-links a:hover{
+    background-color: #F5E1FF;
+    font-size: 1.15rem;
 }
 
 .top-right{
@@ -389,7 +396,7 @@ fa-arrow-right{
     }
 
     .side-anchor a:hover{
-        background-color: #e8e8e8;
+        background-color: #F5E1FF;
     }
 
     .account-container{
