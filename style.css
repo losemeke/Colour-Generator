@@ -292,7 +292,7 @@ fa-arrow-right{
     }
 }
 
-@media screen and (max-width: 1050px) {
+/* @media screen and (max-width: 1050px) {
     .picture img{
         width: 450px;
         height: 400px;
@@ -302,7 +302,7 @@ fa-arrow-right{
     .footer{
         padding-bottom: 0rem;
     }
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .parent{
@@ -481,7 +481,7 @@ fa-arrow-right{
 
     .smallscreenbody{
         display: flex;
-        text-align: center;
+        text-align: start;
     }
 
     .smallscreen-start-button-container{
@@ -494,21 +494,21 @@ fa-arrow-right{
     }
 }
 
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .picture img{
-        width: 300px;
-        height: 250px;
+        width: 250px;
+        height: 150px;
         border-radius: .5rem;
     }  
-} */
+}
 
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 300px) {
     .picture img{
         width: 400px;
         height: 250px;
         border-radius: .5rem;
     }  
-}
+} */
 
 
 
