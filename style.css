@@ -400,7 +400,6 @@ fa-arrow-right{
 @media screen and (max-width: 1024px) {
     .parent{
         padding: 1rem 1.5rem;
-        position: relative;
     }
 
     .top{
@@ -428,7 +427,7 @@ fa-arrow-right{
     .smallscreenheading{
         display: flex;
         text-align: center;
-        margin-top: 2.5rem;
+        margin-top: 1.5rem;
     }
 
     .smallscreenbody{
@@ -440,12 +439,9 @@ fa-arrow-right{
         display: flex;
     }
 
-    /* .footer{
-        position: fixed;
-        bottom: 20px;
-        right: 25px;
-    } */
-
+    .footer{
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
