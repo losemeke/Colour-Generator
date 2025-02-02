@@ -259,9 +259,9 @@ fa-arrow-right{
     color: #5E2CA5;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .parent{
-        padding: 0.5rem .5rem;
+        padding: 0.7rem;
     }
 
     .sidebar{
