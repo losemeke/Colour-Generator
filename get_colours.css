@@ -215,12 +215,6 @@ button{
     }
 }
 
-/* @media screen and (max-width: 750px) {
-    .description h1{
-        text-align: center;
-    }
-} */
-
 @media screen and (max-width: 1024px) {
     .parent-container{
         padding: 1rem 1.5rem;
