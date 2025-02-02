@@ -332,8 +332,8 @@ fa-arrow-right{
     }
 
     .picture img{
-        width: 450px;
-        height: 450px;
+        width: 550px;
+        height: 400px;
     }
 
     .smallscreenheading{
@@ -473,8 +473,8 @@ fa-arrow-right{
     }
 
     .picture img{
-        width: 600px;
-        height: 350px;
+        width: 700px;
+        height: 450px;
         border-radius: .5rem;
         margin-top: 1rem;        
     }
