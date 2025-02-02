@@ -424,6 +424,11 @@ fa-arrow-right{
         row-gap: 2rem;
     }
 
+    .picture img{
+        width: 750px;
+        height: 450px;
+    }
+
     .smallscreenheading{
         display: flex;
         text-align: center;
@@ -450,6 +455,10 @@ fa-arrow-right{
         height: 400px;
         border-radius: .5rem;
     }  
+
+    .footer{
+        padding-bottom: -1rem;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -458,6 +467,10 @@ fa-arrow-right{
         height: 400px;
         border-radius: .5rem;
     }  
+
+    .footer{
+        padding-bottom: -1rem;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -466,4 +479,8 @@ fa-arrow-right{
         height: 400px;
         border-radius: .5rem;
     }  
+
+    .footer{
+        padding-bottom: -1rem;
+    }
 }
