@@ -332,6 +332,7 @@ fa-arrow-right{
     .smallscreenbody{
         width: 80%;
         display: flex;
+        text-align: center;
     }
 
     .smallscreen-start-button-container{
@@ -458,7 +459,7 @@ fa-arrow-right{
         display: none;
     }
 
-    .picture{
+    /* .picture{
         width: 100%;
         height: 100%;
         display: flex;
@@ -470,7 +471,7 @@ fa-arrow-right{
     .smallscreenheading{
         display: flex;
         text-align: center;
-    }
+    } */
 
     .picture img{
         width: 650px;
@@ -480,12 +481,12 @@ fa-arrow-right{
     }
 
     .smallscreenbody{
-        display: flex;
+        /* display: flex; */
         text-align: start;
     }
 
     .smallscreen-start-button-container{
-        display: flex;
+        /* display: flex; */
         margin-bottom: 1.5rem;
     }
 
