@@ -305,6 +305,10 @@ fa-arrow-right{
         column-gap: 2rem;
     }
     
+    .content{
+        display: none;
+    }
+    
     .texts{
         display: none;
     }
