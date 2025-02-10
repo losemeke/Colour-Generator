@@ -311,21 +311,22 @@ fa-arrow-right{
 
     .picture{
         width: 100%;
-        height: 70vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 2rem;
     }
 
-    .picture img{
-        width: 600px;
-        height: 400px;
-    }
-
     .smallscreenheading{
         display: flex;
         text-align: center;
+        margin-top: -1rem;
+    }
+
+    .picture img{
+        width: 600px;
+        height: 400px;
     }
 
     .smallscreenbody{
