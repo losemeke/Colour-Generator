@@ -459,35 +459,15 @@ fa-arrow-right{
         display: none;
     }
 
-    /* .picture{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 2rem;
-    }
-
-    .smallscreenheading{
-        display: flex;
-        text-align: center;
-    } */
-
     .picture img{
         width: 650px;
         height: 450px;
-        border-radius: .5rem;
         margin-top: 1rem;        
-    }
-
-    .smallscreenbody{
-        /* display: flex; */
-        text-align: start;
     }
 
     .smallscreen-start-button-container{
         /* display: flex; */
-        margin-bottom: 1.5rem;
+        margin-bottom: 3rem;
     }
 
     .footer{
