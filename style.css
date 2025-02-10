@@ -326,7 +326,7 @@ fa-arrow-right{
     .smallscreenheading{
         display: flex;
         text-align: center;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 
     .smallscreenbody{
